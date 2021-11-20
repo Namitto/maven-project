@@ -1,5 +1,6 @@
-package com.example;
 /**
  *Thie is a package file
  */
+
+package com.example;
 
