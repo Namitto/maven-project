@@ -9,6 +9,7 @@ pipeline {
             steps {
                 sh 'mvn clean package'
             }
+
             post {
                 success {
                     echo '开始存档....'
