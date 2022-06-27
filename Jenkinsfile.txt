@@ -11,9 +11,9 @@ pipeline {
     }
 
     triggers {
-         pollSCM('* * * * *')
+         pollSCM('* * * * *')  ## 定时时间设置
      }
-
+   
      stages{
         stage('Build'){
             steps {
